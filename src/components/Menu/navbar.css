@@ -1,0 +1,21 @@
+.ConteinerNav {
+  display: flex;
+  width: 110%;
+  margin: auto;
+}
+.navbar {
+  background-color: #fec0e7;
+  border-radius: 30px;
+  height: 70px;
+  margin-top: 20px;
+  margin-left: 20%;
+  width: 80%;
+}
+
+.me-auto {
+  margin-left: 10%;
+}
+
+.Logo {
+  margin-top: 10px;
+}
