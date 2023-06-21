@@ -7,12 +7,20 @@ function App() {
     <>
       <NavBar />
       <div className="containerr">
-        <div className="row">
-          <img id="Malena" src={Malena} alt="Malena" />
+        <div id="rowMalena" className="row">
+          <img src={Malena} alt="Malena" />
         </div>
-        <div className="row">
-          <p id="hdos">COMUNUTY MANAGER</p>
-          <p id="h2">aumenta tu alcance en redes</p>
+        <div className="rowDos">
+          <div className="conteinerRow">
+            <p id="hdos">COMMUNUTY MANAGER</p>
+            <p id="h2">AUMENTÁ TU ALCANCE EN REDES SOCIALES</p>
+
+            <div id="Button">
+              <a href="" style={{ color: "#e57a9e", textDecoration: "none" }}>
+                Mi Portfolio
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </>

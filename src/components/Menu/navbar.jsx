@@ -16,50 +16,71 @@ function BasicExample() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link
-                className="links"
-                style={{ color: "white", fontSize: "20px" }}
+                id="links"
+                style={{
+                  fontSize: "20px",
+                  fontFamily: "Adlery Blockletter",
+                }}
                 href="#home"
               >
                 HOME
               </Nav.Link>
               <Nav.Link
-                className="links"
-                style={{ color: "white", fontSize: "20px" }}
+                id="links"
+                style={{
+                  fontSize: "20px",
+                  fontFamily: "Adlery Blockletter",
+                }}
                 href="#link"
               >
                 SOBRE MÍ
               </Nav.Link>
               <Nav.Link
-                className="links"
-                style={{ color: "white", fontSize: "20px" }}
+                id="links"
+                style={{
+                  fontSize: "20px",
+                  fontFamily: "Adlery Blockletter",
+                }}
                 href="#link"
               >
                 TIPS GRATIS
               </Nav.Link>
               <Nav.Link
-                className="links"
-                style={{ color: "white", fontSize: "20px" }}
+                id="links"
+                style={{
+                  fontSize: "20px",
+                  fontFamily: "Adlery Blockletter",
+                }}
                 href="#link"
               >
                 SERVICIOS
               </Nav.Link>
               <Nav.Link
-                className="links"
-                style={{ color: "white", fontSize: "20px" }}
+                id="links"
+                style={{
+                  fontSize: "20px",
+                  fontFamily: "Adlery Blockletter",
+                }}
                 href="#link"
               >
                 PROYECTOS
               </Nav.Link>
               <Nav.Link
-                className="links"
-                style={{ color: "white", fontSize: "20px" }}
+                id="links"
+                style={{
+                  fontSize: "20px",
+                  fontFamily: "Adlery Blockletter",
+                }}
                 href="#link"
               >
                 CERTIFICACIONES
               </Nav.Link>
               <Nav.Link
-                className="links"
-                style={{ color: "white", fontSize: "20px" }}
+                id="links"
+                style={{
+                  fontSize: "20px",
+                  fontFamily: "Adlery Blockletter",
+                }}
                 href="#link"
               >
                 CONTACTO

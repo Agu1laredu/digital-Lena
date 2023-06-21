@@ -8,14 +8,136 @@
   border-radius: 30px;
   height: 70px;
   margin-top: 20px;
-  margin-left: 20%;
+  margin-left: 5%;
   width: 80%;
 }
-
+#links {
+  color: white;
+}
 .me-auto {
   margin-left: 10%;
 }
 
 .Logo {
   margin-top: 10px;
+}
+
+@media (max-width: 1000px) {
+  .navbar {
+    background-color: white;
+    margin-top: 20px;
+    margin-left: -80%;
+    width: 18%;
+  }
+  .Logo {
+    margin-top: 10px;
+    margin-left: 65%;
+  }
+
+  #basic-navbar-nav {
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.226);
+    z-index: 3;
+    width: 90vw;
+    height: 85vh;
+    position: absolute;
+    top: 120%;
+  }
+  .me-auto {
+    position: relative;
+    top: 20%;
+    left: -5%;
+  }
+  #links:hover {
+    color: #fec0e7;
+    border: 2px solid #fec0e7;
+  }
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    background-color: white;
+    margin-top: 20px;
+    margin-left: -70%;
+    width: 18%;
+  }
+  #basic-navbar-nav {
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.226);
+    z-index: 3;
+    width: 90vw;
+    height: 85vh;
+    position: absolute;
+    top: 120%;
+    left: -20%;
+  }
+  .me-auto {
+    position: relative;
+    top: 20%;
+    left: -5%;
+  }
+  #links:hover {
+    color: #fec0e7;
+    border: 2px solid #fec0e7;
+  }
+}
+@media (max-width: 600px) {
+  .navbar {
+    background-color: white;
+    margin-top: 20px;
+    margin-left: -80%;
+    width: 18%;
+  }
+  .Logo {
+    margin-top: 10px;
+    margin-left: 65%;
+  }
+
+  #basic-navbar-nav {
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.226);
+    z-index: 3;
+    width: 90vw;
+    height: 85vh;
+    position: absolute;
+    top: 120%;
+    left: 20%;
+  }
+  .me-auto {
+    position: relative;
+    top: 20%;
+    left: -5%;
+  }
+  #links:hover {
+    color: #fec0e7;
+    border: 2px solid #fec0e7;
+  }
+}
+
+@media (max-width: 400px) {
+  .navbar {
+    background-color: white;
+    margin-top: 20px;
+    margin-left: -90%;
+    width: 18%;
+  }
+  #basic-navbar-nav {
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.226);
+    z-index: 3;
+    width: 90vw;
+    height: 85vh;
+    position: absolute;
+    top: 120%;
+    left: 25%;
+  }
+  .me-auto {
+    position: relative;
+    top: 20%;
+    left: -5%;
+  }
+  #links:hover {
+    color: #fec0e7;
+    border: 2px solid #fec0e7;
+  }
 }
