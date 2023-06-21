@@ -1,6 +1,6 @@
 .ConteinerNav {
   display: flex;
-  width: 100%;
+  width: 110%;
   margin: auto;
 }
 .navbar {
@@ -15,7 +15,7 @@
   color: white;
 }
 .me-auto {
-  margin-left: 10%;
+  margin-left: 20%;
 }
 
 .Logo {
@@ -133,7 +133,7 @@
     height: 85vh;
     position: absolute;
     top: 120%;
-    left: -62%;
+    left: -6%;
   }
   .me-auto {
     position: relative;
