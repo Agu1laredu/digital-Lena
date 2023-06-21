@@ -85,12 +85,12 @@
   .navbar {
     background-color: white;
     margin-top: 20px;
-    margin-left: -120%;
+    margin-left: -80%;
     width: 18%;
   }
   .Logo {
     margin-top: 10px;
-    margin-left: 75%;
+    margin-left: 70%;
   }
 
   #basic-navbar-nav {
@@ -101,7 +101,39 @@
     height: 85vh;
     position: absolute;
     top: 120%;
-    left: 20%;
+    left: -40%;
+  }
+  .me-auto {
+    position: relative;
+    top: 20%;
+    left: -5%;
+  }
+  #links:hover {
+    color: #fec0e7;
+    border: 2px solid #fec0e7;
+  }
+}
+@media (max-width: 500px) {
+  .navbar {
+    background-color: white;
+    margin-top: 20px;
+    margin-left: -80%;
+    width: 18%;
+  }
+  .Logo {
+    margin-top: 10px;
+    margin-left: 70%;
+  }
+
+  #basic-navbar-nav {
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.226);
+    z-index: 3;
+    width: 100vw;
+    height: 85vh;
+    position: absolute;
+    top: 120%;
+    left: -62%;
   }
   .me-auto {
     position: relative;
@@ -118,18 +150,21 @@
   .navbar {
     background-color: white;
     margin-top: 20px;
-    margin-left: -90%;
-    width: 18%;
+    margin-left: -80%;
+  }
+  .Logo {
+    margin-top: 10px;
+    margin-left: 65%;
   }
   #basic-navbar-nav {
     border: 1px solid black;
     background-color: rgba(0, 0, 0, 0.226);
     z-index: 3;
-    width: 100vw;
+    width: 110vw;
     height: 85vh;
     position: absolute;
     top: 120%;
-    left: 25%;
+    left: -47%;
   }
   .me-auto {
     position: relative;
