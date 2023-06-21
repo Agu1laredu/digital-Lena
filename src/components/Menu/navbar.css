@@ -133,7 +133,7 @@
     height: 85vh;
     position: absolute;
     top: 120%;
-    left: -6%;
+    left: -65%;
   }
   .me-auto {
     position: relative;
@@ -169,7 +169,7 @@
   .me-auto {
     position: relative;
     top: 20%;
-    left: -5%;
+    left: -15%;
   }
   #links:hover {
     color: #fec0e7;
