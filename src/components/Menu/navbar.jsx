@@ -2,6 +2,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Logo from "../../assets/Logo.png";
+import { Link } from "react-router-dom";
 import "./navbar.css";
 
 function BasicExample() {
@@ -23,7 +24,10 @@ function BasicExample() {
                 }}
                 href="#home"
               >
-                HOME
+                <Link id="links" style={{ textDecoration: "none" }} to={"/"}>
+                  {" "}
+                  HOME
+                </Link>
               </Nav.Link>
               <Nav.Link
                 id="links"
@@ -33,7 +37,14 @@ function BasicExample() {
                 }}
                 href="#link"
               >
-                SOBRE MÍ
+                <Link
+                  id="links"
+                  style={{ textDecoration: "none" }}
+                  to={"/SobreMi"}
+                >
+                  {" "}
+                  SOBRE MÍ
+                </Link>
               </Nav.Link>
               <Nav.Link
                 id="links"
@@ -43,7 +54,14 @@ function BasicExample() {
                 }}
                 href="#link"
               >
-                TIPS GRATIS
+                <Link
+                  id="links"
+                  style={{ textDecoration: "none" }}
+                  to={"/TipsGratis"}
+                >
+                  {" "}
+                  TIPS GRATIS
+                </Link>
               </Nav.Link>
               <Nav.Link
                 id="links"
@@ -53,7 +71,14 @@ function BasicExample() {
                 }}
                 href="#link"
               >
-                SERVICIOS
+                <Link
+                  id="links"
+                  style={{ textDecoration: "none" }}
+                  to={"/Servicios"}
+                >
+                  {" "}
+                  SERVICIOS
+                </Link>
               </Nav.Link>
               <Nav.Link
                 id="links"
@@ -63,7 +88,14 @@ function BasicExample() {
                 }}
                 href="#link"
               >
-                PROYECTOS
+                <Link
+                  id="links"
+                  style={{ textDecoration: "none" }}
+                  to={"/Proyectos"}
+                >
+                  {" "}
+                  PROYECTOS
+                </Link>
               </Nav.Link>
               <Nav.Link
                 id="links"
@@ -73,7 +105,14 @@ function BasicExample() {
                 }}
                 href="#link"
               >
-                CERTIFICACIONES
+                <Link
+                  id="links"
+                  style={{ textDecoration: "none" }}
+                  to={"/Certificaciones"}
+                >
+                  {" "}
+                  CERTIFICACIONES
+                </Link>
               </Nav.Link>
               <Nav.Link
                 id="links"
@@ -83,7 +122,14 @@ function BasicExample() {
                 }}
                 href="#link"
               >
-                CONTACTO
+                <Link
+                  id="links"
+                  style={{ textDecoration: "none" }}
+                  to={"/Contacto"}
+                >
+                  {" "}
+                  CONTACTO
+                </Link>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
