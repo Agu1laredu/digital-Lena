@@ -31,7 +31,9 @@ function App() {
           display: "grid",
         }}
       >
-        <h2 style={{ color: "#fec0e7", fontSize: "60px" }}>SOBRE MI</h2>
+        <h2 style={{ color: "#fec0e7", fontSize: "60px", margin: " 5% auto" }}>
+          SOBRE MI
+        </h2>
         <b
           style={{
             textAlign: "justify",
@@ -63,7 +65,7 @@ function App() {
             backgroundColor: "#fec0e7",
             fontSize: "100%",
             border: "none",
-            margin: " 10% auto",
+            margin: " 5% auto",
             width: "200px",
             padding: "15px",
             borderRadius: "15px",
