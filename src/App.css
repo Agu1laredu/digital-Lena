@@ -87,7 +87,43 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 428px) {
+  .rowDos {
+    height: 100%;
+    width: 80%;
+    margin: auto 10px;
+  }
+  .row {
+    height: 80%;
+    width: 80%;
+    margin: auto;
+  }
+  .conteinerRow {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  #hdos {
+    font-size: 25px;
+    font-weight: 1000px;
+    color: #fec0e7;
+    margin: auto;
+  }
+  #h2 {
+    font-size: 10px;
+    margin: auto;
+    color: #fec0e7;
+  }
+  #Button {
+    border: 1px solid #e57a9e;
+    width: 210px;
+    margin: 2% 25%;
+    height: 50px;
+    text-align: center;
+  }
+}
+@media (max-width: 400px) {
   .rowDos {
     height: 80%;
     width: 70%;
@@ -117,8 +153,8 @@
   }
   #Button {
     border: 1px solid #e57a9e;
-    width: 200px;
-    margin: 20px auto;
+    width: 210px;
+    margin: 2% auto;
     height: 50px;
     text-align: center;
   }
