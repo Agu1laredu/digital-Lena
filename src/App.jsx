@@ -26,7 +26,7 @@ function App() {
       <section
         style={{
           width: "100%",
-          margin: " 15% auto",
+          margin: "20px auto",
           textAlign: "center",
           display: "grid",
         }}

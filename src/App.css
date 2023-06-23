@@ -96,7 +96,7 @@
   .row {
     height: 80%;
     width: 80%;
-    margin: auto;
+    margin: "auto 10px";
   }
   .conteinerRow {
     margin: 2% auto;
@@ -115,7 +115,7 @@
     border: 1px solid #e57a9e;
     width: 200px;
     height: 50px;
-    margin: auto;
+    margin: "auto 10px";
     text-align: center;
   }
 }
