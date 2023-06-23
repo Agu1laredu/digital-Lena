@@ -31,7 +31,7 @@ function App() {
           display: "grid",
         }}
       >
-        <h2 style={{ color: "#fec0e7", fontSize: "60px", margin: " 5% auto" }}>
+        <h2 style={{ color: "#fec0e7", fontSize: "25px", margin: " 5% auto" }}>
           SOBRE MI
         </h2>
         <b
