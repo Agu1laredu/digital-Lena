@@ -110,6 +110,7 @@
   #h2 {
     font-size: 10px;
     color: #fec0e7;
+    width: 90%;
   }
   #Button {
     border: 1px solid #e57a9e;
@@ -117,11 +118,5 @@
     height: 50px;
     margin: auto;
     text-align: center;
-  }
-}
-
-@media (max-width: 475px) {
-  .conteinerRow {
-    margin: 2% -4%;
   }
 }
