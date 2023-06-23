@@ -103,7 +103,6 @@
     text-align: center;
   }
   #hdos {
-    margin: "auto 10px";
     font-size: 30px;
     font-weight: 1000px;
     color: #fec0e7;
@@ -118,5 +117,11 @@
     height: 50px;
     margin: auto;
     text-align: center;
+  }
+}
+
+@media (max-width: 475px) {
+  .conteinerRow {
+    margin: 2% -4%;
   }
 }
