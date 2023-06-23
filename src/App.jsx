@@ -25,7 +25,7 @@ function App() {
       </div>
       <section
         style={{
-          width: "90%",
+          width: "100%",
           margin: " 15% auto",
           textAlign: "center",
           display: "grid",
@@ -65,7 +65,7 @@ function App() {
             backgroundColor: "#fec0e7",
             fontSize: "100%",
             border: "none",
-            margin: " 5% auto",
+            margin: " % auto",
             width: "200px",
             padding: "15px",
             borderRadius: "15px",
