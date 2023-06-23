@@ -65,7 +65,7 @@ function App() {
             backgroundColor: "#fec0e7",
             fontSize: "100%",
             border: "none",
-            margin: " % auto",
+            margin: "20px auto",
             width: "200px",
             padding: "15px",
             borderRadius: "15px",
