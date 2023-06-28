@@ -268,7 +268,7 @@ function App() {
 
         <div className="rowDos">
           <div className="conteinerRow">
-            <h2 id="hdos" translate="no" style={{ marginTop: "20px" }}>
+            <h2 id="hdos" translate="no" style={{ marginTop: "10px" }}>
               CONTACTO
             </h2>
 
@@ -290,6 +290,14 @@ function App() {
           </div>
         </div>
       </div>
+      <div
+        className="div"
+        style={{
+          height: "350px",
+          backgroundColor: "#e57a9e",
+          marginTop: "100px",
+        }}
+      ></div>
     </>
   );
 }
