@@ -111,7 +111,7 @@ function App() {
         </h2>
         <p
           style={{
-            textAlign: "justify",
+            textAlign: "center",
             width: "80%",
             margin: "auto",
             fontSize: "100%",
@@ -126,7 +126,7 @@ function App() {
         </h2>
         <b
           style={{
-            textAlign: "justify",
+            textAlign: "center",
             width: "80%",
             margin: "auto",
             fontSize: "100%",
