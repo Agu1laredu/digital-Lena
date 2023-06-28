@@ -103,7 +103,10 @@ function App() {
           display: "grid",
         }}
       >
-        <h2 style={{ color: "#e57a9e", fontSize: "25px", margin: " 5% auto" }}>
+        <h2
+          style={{ color: "#e57a9e", fontSize: "25px", margin: " 5% auto" }}
+          translate="no"
+        >
           DIGITAL LENA PROYECTO
         </h2>
         <p
