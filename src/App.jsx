@@ -1,23 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
-import { useState } from "react";
 import "./App.css";
 import NavBar from "./components/Menu/navbar";
 import Malena from "./assets/malena.png";
 
 function App() {
-  const [nombre, setNombre] = useState("");
-  const [email, setEmail] = useState("");
-  const [mensaje, setMensaje] = useState("");
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    // Aquí puedes agregar la lógica para enviar los datos del formulario
-    console.log("Datos enviados:", { nombre, email, mensaje });
-    // Luego de enviar los datos, puedes limpiar los campos
-    setNombre("");
-    setEmail("");
-    setMensaje("");
-  };
   return (
     <>
       <NavBar />
@@ -183,120 +169,6 @@ function App() {
       <div
         className="div"
         style={{ height: "100px", backgroundColor: "#e57a9e" }}
-      ></div>
-
-      <div className="containerr">
-        <div id="rowConteiner">
-          <form
-            onSubmit={handleSubmit}
-            style={{
-              display: "grid",
-              height: "20%",
-            }}
-          >
-            <h2 id="duda">¿TENÉS ALGUNA DUDA?</h2>
-            <p id="p">
-              ¡COMPLETÁ ESTE FORMULARIO Y ME VOY A CONTACTAR CON VOS!
-            </p>
-            <div className="ContenedorInput">
-              <label htmlFor="nombre">Nombre:</label>
-              <input
-                style={{
-                  backgroundColor: "#fec0e7",
-                  border: "none",
-                  marginTop: "15px",
-                }}
-                type="text"
-                id="nombre"
-                value={nombre}
-                onChange={(event) => setNombre(event.target.value)}
-              />
-            </div>
-            <div className="ContenedorInput">
-              <label htmlFor="email">Email:</label>
-              <input
-                style={{
-                  backgroundColor: "#fec0e7",
-                  border: "none",
-                  marginTop: "15px",
-                }}
-                type="email"
-                id="email"
-                value={email}
-                onChange={(event) => setEmail(event.target.value)}
-              />
-            </div>
-            <div
-              className=""
-              style={{
-                backgroundColor: "#fec0e7",
-                border: "none",
-                height: "200px",
-                margin: " 15px auto",
-                width: "300px",
-              }}
-            >
-              <label htmlFor="mensaje">Mensaje:</label>
-              <textarea
-                style={{
-                  backgroundColor: "#fec0e7",
-                  border: "none",
-                  width: "300px",
-                  marginTop: "15px",
-                }}
-                id="mensaje"
-                value={mensaje}
-                onChange={(event) => setMensaje(event.target.value)}
-              />
-            </div>
-            <div id="ButtonRedes">
-              <button
-                style={{
-                  margin: "auto",
-                  backgroundColor: "#fec0e7",
-                  border: "none",
-                  width: "300px",
-                  marginTop: "15px",
-                }}
-                type="submit"
-              >
-                Enviar
-              </button>
-            </div>
-          </form>
-        </div>
-
-        <div className="rowDos">
-          <div className="conteinerRow">
-            <h2 id="hdos" translate="no" style={{ marginTop: "10px" }}>
-              CONTACTO
-            </h2>
-
-            <div id="ButtonRedes">
-              <a href="" style={{ color: "black", textDecoration: "none" }}>
-                WHATSAPP
-              </a>
-            </div>
-            <div id="ButtonRedes">
-              <a href="" style={{ color: "black", textDecoration: "none" }}>
-                INSTAGRAM
-              </a>
-            </div>
-            <div id="ButtonRedes">
-              <a href="" style={{ color: "black", textDecoration: "none" }}>
-                EMAIL
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        className="div"
-        style={{
-          height: "350px",
-          backgroundColor: "#e57a9e",
-          marginTop: "100px",
-        }}
       ></div>
     </>
   );
