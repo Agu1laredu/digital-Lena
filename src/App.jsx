@@ -74,23 +74,30 @@ function App() {
             width: "200px",
             padding: "15px",
             borderRadius: "15px",
+            cursor: "pointer",
           }}
         >
-          <b
-            href=""
-            style={{
-              fontSize: "100%",
-              textDecoration: "none",
-              color: "#010101",
-            }}
+          <a
+            href="https://www.instagram.com/digital_lenacm/"
+            target="blank"
+            style={{ textDecoration: "none" }}
           >
-            INSTAGRAM
-          </b>
+            <b
+              href=""
+              style={{
+                fontSize: "100%",
+                textDecoration: "none",
+                color: "#010101",
+              }}
+            >
+              INSTAGRAM
+            </b>
+          </a>
         </button>
       </section>
 
       <div
-        className=""
+        className="div"
         style={{ height: "100px", backgroundColor: "#e57a9e" }}
       ></div>
 
@@ -126,7 +133,7 @@ function App() {
         </h2>
         <b
           style={{
-            textAlign: "center",
+            textAlign: "center ",
             width: "80%",
             margin: "auto",
             fontSize: "100%",
@@ -160,7 +167,7 @@ function App() {
       </section>
 
       <div
-        className=""
+        className="div"
         style={{ height: "100px", backgroundColor: "#e57a9e" }}
       ></div>
     </>
