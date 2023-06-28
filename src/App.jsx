@@ -13,7 +13,9 @@ function App() {
         </div>
         <div className="rowDos">
           <div className="conteinerRow">
-            <p id="hdos">COMMUNUTY MANAGER</p>
+            <h1 id="hdos" translate="no">
+              COMMUNITY MANAGER
+            </h1>
             <p id="h2">AUMENTÁ TU ALCANCE EN REDES SOCIALES</p>
 
             <div id="Button">

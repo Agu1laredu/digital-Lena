@@ -24,7 +24,12 @@ function BasicExample() {
                 }}
                 href="#home"
               >
-                <Link id="links" style={{ textDecoration: "none" }} to={"/"}>
+                <Link
+                  id="links"
+                  style={{ textDecoration: "none" }}
+                  to={"/"}
+                  translate="no"
+                >
                   {" "}
                   HOME
                 </Link>
@@ -36,11 +41,13 @@ function BasicExample() {
                   fontFamily: "Adlery Blockletter",
                 }}
                 href="#link"
+                translate="no"
               >
                 <Link
                   id="links"
                   style={{ textDecoration: "none" }}
                   to={"/SobreMi"}
+                  translate="no"
                 >
                   {" "}
                   SOBRE MÍ
@@ -53,11 +60,13 @@ function BasicExample() {
                   fontFamily: "Adlery Blockletter",
                 }}
                 href="#link"
+                translate="no"
               >
                 <Link
                   id="links"
                   style={{ textDecoration: "none" }}
                   to={"/TipsGratis"}
+                  translate="no"
                 >
                   {" "}
                   TIPS GRATIS
@@ -75,6 +84,7 @@ function BasicExample() {
                   id="links"
                   style={{ textDecoration: "none" }}
                   to={"/Servicios"}
+                  translate="no"
                 >
                   {" "}
                   SERVICIOS
@@ -92,6 +102,7 @@ function BasicExample() {
                   id="links"
                   style={{ textDecoration: "none" }}
                   to={"/Proyectos"}
+                  translate="no"
                 >
                   {" "}
                   PROYECTOS
@@ -109,6 +120,7 @@ function BasicExample() {
                   id="links"
                   style={{ textDecoration: "none" }}
                   to={"/Certificaciones"}
+                  translate="no"
                 >
                   {" "}
                   CERTIFICACIONES
@@ -121,11 +133,13 @@ function BasicExample() {
                   fontFamily: "Adlery Blockletter",
                 }}
                 href="#link"
+                translate="no"
               >
                 <Link
                   id="links"
                   style={{ textDecoration: "none" }}
                   to={"/Contacto"}
+                  translate="no"
                 >
                   {" "}
                   CONTACTO
