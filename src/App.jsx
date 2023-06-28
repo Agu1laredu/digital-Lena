@@ -36,12 +36,12 @@ function App() {
           display: "grid",
         }}
       >
-        <h2 style={{ color: "#fec0e7", fontSize: "25px", margin: " 5% auto" }}>
+        <h2 style={{ color: "#fec0e7", fontSize: "400%", margin: " 5% auto" }}>
           SOBRE MI
         </h2>
         <b
           style={{
-            textAlign: "justify",
+            textAlign: "center",
             width: "80%",
             margin: "auto",
             fontSize: "100%",
@@ -55,7 +55,7 @@ function App() {
         </b>
         <b
           style={{
-            textAlign: "justify",
+            textAlign: "center",
             width: "80%",
             margin: "auto",
             fontSize: "100%",
@@ -151,18 +151,25 @@ function App() {
             width: "200px",
             padding: "15px",
             borderRadius: "15px",
+            cursor: "pointer",
           }}
         >
-          <b
-            href=""
-            style={{
-              fontSize: "100%",
-              textDecoration: "none",
-              color: "#010101",
-            }}
+          <a
+            href="https://www.instagram.com/digital_lenacm/"
+            target="blank"
+            style={{ textDecoration: "none" }}
           >
-            QUIERO FORMAR PARTE
-          </b>
+            <b
+              href=""
+              style={{
+                fontSize: "100%",
+                textDecoration: "none",
+                color: "#010101",
+              }}
+            >
+              QUIERO FORMAR PARTE
+            </b>
+          </a>
         </button>
       </section>
 
