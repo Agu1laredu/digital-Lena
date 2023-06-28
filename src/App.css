@@ -30,6 +30,13 @@
   font-size: 50px;
   font-weight: 1000px;
   color: #fec0e7;
+  width: 100%;
+}
+#duda {
+  font-size: 50px;
+  font-weight: 1000px;
+  color: #fec0e7;
+  width: 100%;
 }
 #h2 {
   font-size: 20px;
@@ -56,6 +63,48 @@
   margin: auto;
 }
 
+#ButtonRedes {
+  background-color: #fec0e7;
+  width: 300px;
+  height: 60px;
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 20px;
+}
+
+#ButtonRedes a {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 1000px;
+}
+form {
+  width: 100%;
+  height: 100%;
+  margin: auto 40px;
+}
+.ContenedorInput {
+  background-color: #fec0e7;
+  width: 300px;
+  height: 60px;
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+}
+#ContenedorInput label input {
+  text-align: center;
+  margin: auto;
+  font-size: 30px;
+  font-weight: 1000px;
+}
+#rowConteiner {
+  height: 30%;
+  width: 40%;
+  margin: auto;
+}
+
 @media (max-width: 700px) {
   .rowDos {
     height: 100%;
@@ -73,6 +122,7 @@
   #hdos {
     font-size: 30px;
     font-weight: 1000px;
+    width: 100%;
     color: #fec0e7;
   }
   #h2 {
@@ -96,6 +146,14 @@
     height: 100%;
     width: 100%;
     margin: auto;
+  }
+}
+@media (max-width: 700px) {
+  #rowConteiner {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    margin: auto -40px;
   }
 }
 
@@ -122,6 +180,11 @@
     color: #fec0e7;
     margin: auto;
   }
+  #duda {
+    font-size: 25px;
+    color: #fec0e7;
+    margin: auto;
+  }
   #h2 {
     font-size: 10px;
     margin: auto;
@@ -140,9 +203,21 @@
     width: 70%;
     margin: auto 40px;
   }
+
   .Malena {
     height: 100%;
     width: 100%;
+    margin: auto;
+  }
+  #rowConteiner {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    margin: auto -75px;
+  }
+
+  #p {
+    width: 250px;
     margin: auto;
   }
 }
@@ -169,6 +244,13 @@
     color: #fec0e7;
     margin: auto;
   }
+  #duda {
+    font-size: 25px;
+    font-weight: 1000px;
+    color: #fec0e7;
+    margin: auto;
+  }
+
   #h2 {
     font-size: 10px;
     margin: auto;
@@ -186,5 +268,31 @@
     height: 90%;
     width: 70%;
     margin: auto 20px;
+  }
+  #rowConteiner {
+    height: 90%;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+  }
+  .ContenedorInput {
+    background-color: #fec0e7;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+  }
+  form {
+    width: 50%;
+    margin: auto 40px;
+  }
+  #ContenedorInput label input {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 30px;
+    font-weight: 1000px;
   }
 }
