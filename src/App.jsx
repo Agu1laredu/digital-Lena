@@ -111,7 +111,12 @@ function App() {
         }}
       >
         <h2
-          style={{ color: "#e57a9e", fontSize: "25px", margin: " 5% auto" }}
+          style={{
+            color: "#e57a9e",
+            fontSize: "25px",
+            margin: " 5% auto",
+            fontFamily: "YAEp0uc4PeA-0",
+          }}
           translate="no"
         >
           DIGITAL LENA PROYECTO
@@ -128,7 +133,14 @@ function App() {
           SUMAR A MI PROYECTO <b>"DIGITAL LENA"</b> DE FORMAR UNA{" "}
           <b> AGENCIA DE MARKETING</b>
         </p>
-        <h2 style={{ color: "#e57a9e", fontSize: "25px", margin: " 5% auto" }}>
+        <h2
+          style={{
+            color: "#e57a9e",
+            fontSize: "25px",
+            margin: " 5% auto",
+            fontFamily: "YAEp0uc4PeA-0",
+          }}
+        >
           ¿qué busco?
         </h2>
         <b
@@ -165,6 +177,7 @@ function App() {
                 fontSize: "100%",
                 textDecoration: "none",
                 color: "#010101",
+                fontFamily: "YAEp0uc4PeA-0",
               }}
             >
               QUIERO FORMAR PARTE
