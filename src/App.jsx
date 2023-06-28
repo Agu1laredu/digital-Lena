@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import "./App.css";
 import NavBar from "./components/Menu/navbar";
 import Malena from "./assets/malena.png";
@@ -8,7 +9,7 @@ function App() {
       <NavBar />
       <div className="containerr">
         <div id="rowMalena" className="row">
-          <img src={Malena} alt="Malena" />
+          <img src={Malena} alt="Malena" className="Malena" />
         </div>
         <div className="rowDos">
           <div className="conteinerRow">
@@ -23,6 +24,8 @@ function App() {
           </div>
         </div>
       </div>
+
+      {/* // SOBRE MI */}
       <section
         style={{
           width: "100%",
@@ -83,6 +86,78 @@ function App() {
           </b>
         </button>
       </section>
+
+      <div
+        className=""
+        style={{ height: "100px", backgroundColor: "#e57a9e" }}
+      ></div>
+
+      {/* // PROYECTO */}
+      <section
+        style={{
+          width: "100%",
+          margin: "20px auto",
+          textAlign: "center",
+          display: "grid",
+        }}
+      >
+        <h2 style={{ color: "#e57a9e", fontSize: "25px", margin: " 5% auto" }}>
+          DIGITAL LENA PROYECTO
+        </h2>
+        <p
+          style={{
+            textAlign: "justify",
+            width: "80%",
+            margin: "auto",
+            fontSize: "100%",
+          }}
+        >
+          <b> ESTA ES TU OPORTUNIDAD</b> ESTOY EN BUSCA DE TALENTOS QUE QUIERAN
+          SUMAR A MI PROYECTO <b>"DIGITAL LENA"</b> DE FORMAR UNA{" "}
+          <b> AGENCIA DE MARKETING</b>
+        </p>
+        <h2 style={{ color: "#e57a9e", fontSize: "25px", margin: " 5% auto" }}>
+          ¿qué busco?
+        </h2>
+        <b
+          style={{
+            textAlign: "justify",
+            width: "80%",
+            margin: "auto",
+            fontSize: "100%",
+          }}
+        >
+          DISEÑADORES GRAFICOS - EDITOR DE VIDEOS E IMAGENES - COPYWRITER -
+          GROWTH MARKETING
+        </b>
+        <button
+          style={{
+            backgroundColor: "#e57a9e",
+            fontSize: "100%",
+            border: "none",
+            margin: "20px auto",
+            width: "200px",
+            padding: "15px",
+            borderRadius: "15px",
+          }}
+        >
+          <b
+            href=""
+            style={{
+              fontSize: "100%",
+              textDecoration: "none",
+              color: "#010101",
+            }}
+          >
+            QUIERO FORMAR PARTE
+          </b>
+        </button>
+      </section>
+
+      <div
+        className=""
+        style={{ height: "100px", backgroundColor: "#e57a9e" }}
+      ></div>
     </>
   );
 }
