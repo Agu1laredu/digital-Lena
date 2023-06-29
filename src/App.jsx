@@ -238,8 +238,12 @@ function App() {
                 style={{
                   border: ' 2px solid #fec0e7',
                   backgroundColor: '#fec0e7',
+                  fontSize: '100%',
+                  margin: '20px auto',
                   width: '200px',
-                  margin: ' 20px auto',
+                  padding: '15px',
+                  borderRadius: '15px',
+                  cursor: 'pointer',
                 }}
               />
             </div>
@@ -254,17 +258,25 @@ function App() {
                 style={{
                   border: ' 2px solid #fec0e7',
                   backgroundColor: '#fec0e7',
+                  fontSize: '100%',
+                  margin: '20px auto',
                   width: '200px',
-                  margin: 'auto',
+                  padding: '15px',
+                  borderRadius: '15px',
+                  cursor: 'pointer',
                 }}
               />
             </div>
             <button
               style={{
-                border: ' 2px solid #fec0e7',
                 backgroundColor: '#fec0e7',
+                fontSize: '100%',
+                border: 'none',
+                margin: '20px auto',
                 width: '200px',
-                margin: ' 20px auto',
+                padding: '15px',
+                borderRadius: '15px',
+                cursor: 'pointer',
               }}
             >
               <a href="" style={{ textDecoration: 'none', color: 'black' }}>
