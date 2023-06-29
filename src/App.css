@@ -113,6 +113,9 @@ form {
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   gap: 1px;
 }
+.algunaduda {
+  font-size: 50px;
+}
 @media (max-width: 700px) {
   .rowDos {
     height: 100%;
@@ -155,8 +158,6 @@ form {
     width: 100%;
     margin: auto;
   }
-}
-@media (max-width: 700px) {
   #rowConteiner {
     object-fit: cover;
     height: 100%;
@@ -165,6 +166,10 @@ form {
   }
   .diUno {
     width: 100%;
+  }
+
+  .algunaduda {
+    font-size: 40px;
   }
 }
 
@@ -233,6 +238,9 @@ form {
   }
   .diUno {
     width: 85%;
+  }
+  .algunaduda {
+    font-size: 35px;
   }
 }
 @media (max-width: 400px) {
@@ -311,5 +319,8 @@ form {
   }
   .diUno {
     width: 75%;
+  }
+  .algunaduda {
+    font-size: 30px;
   }
 }

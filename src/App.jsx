@@ -207,9 +207,9 @@ function App() {
             }}
           >
             <h2
+              className="algunaduda"
               style={{
                 color: '#fec0e7',
-                fontSize: '50px',
                 margin: ' 5% auto',
                 fontFamily: 'YAEp0uc4PeA-0',
               }}
