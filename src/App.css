@@ -11,6 +11,7 @@
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   gap: 1px;
 }
+
 .row {
   height: 100%;
   width: 100%;
@@ -104,7 +105,14 @@ form {
   width: 40%;
   margin: auto;
 }
-
+.SectionForm {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 1px;
+}
 @media (max-width: 700px) {
   .rowDos {
     height: 100%;
@@ -154,6 +162,9 @@ form {
     height: 100%;
     width: 100%;
     margin: auto -40px;
+  }
+  .diUno {
+    width: 100%;
   }
 }
 
@@ -219,6 +230,9 @@ form {
   #p {
     width: 250px;
     margin: auto;
+  }
+  .diUno {
+    width: 85%;
   }
 }
 @media (max-width: 400px) {
@@ -294,5 +308,8 @@ form {
     margin: 20px auto;
     font-size: 30px;
     font-weight: 1000px;
+  }
+  .diUno {
+    width: 75%;
   }
 }
